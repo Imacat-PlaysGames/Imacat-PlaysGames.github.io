@@ -1,4 +1,4 @@
-elements.condenser = {
+elements.watercondenser = {
 	color: "#73fff8",
 	behavior: behaviors.WALL,
 	tick: function(pixel) {
@@ -12,7 +12,9 @@ elements.condenser = {
 					} else if(pixelMap[x][y].temp > 270) {
 						pixelMap[x][y].temp = (pixelMap[x][y].temp - 7)
 					} else if (pixelMap[x][y].temp < 50) {
-						pixelMap[x][y].temp = (pixelMap[x][y].temp - 2
+						pixelMap[x][y].temp = (pixelMap[x][y].temp + 1)
+					} else if (pixelMap[x][y].temp > 50) {
+						pixelMap[x][y].temp = (pixelMap[x][y].temp - 3)
 					}
                 }
             }

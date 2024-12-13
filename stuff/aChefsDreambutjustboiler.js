@@ -25,7 +25,7 @@ elements.boiler2 = {
 	noMix: true,
 	movable: false,
     temp: 150
-};
+}
 elements.condenser = {
 	color: "#73fff8",
 	behavior: behaviors.WALL,

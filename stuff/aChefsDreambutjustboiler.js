@@ -1,4 +1,4 @@
-elements.boiler = {
+elements.boiler2 = {
 	color: "#73fff8",
 	behavior: behaviors.WALL,
 	tick: function(pixel) {

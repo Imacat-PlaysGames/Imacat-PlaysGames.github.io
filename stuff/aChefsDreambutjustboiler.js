@@ -11,9 +11,9 @@ elements.boiler2 = {
                     pixelMap[x][y].temp = (pixelMap[x][y].temp + 7)
 					} else if(pixelMap[x][y].temp > 270) {
 						pixelMap[x][y].temp = (pixelMap[x][y].temp - 7)
-					} else if (pixelMap[x][y].temp < 95) {
-						pixelMap[x][y].temp = (pixelMap[x][y].temp + 10)
-					} else if (pixelMap[x][y].temp > 95) {
+					} else if (pixelMap[x][y].temp < 100) {
+						pixelMap[x][y].temp = (pixelMap[x][y].temp + 2)
+					} else if (pixelMap[x][y].temp > 100) {
 						pixelMap[x][y].temp = (pixelMap[x][y].temp - 1)
 					}
                 }
